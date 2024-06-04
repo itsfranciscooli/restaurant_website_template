@@ -1,0 +1,13 @@
+nav {
+    width: 10px;
+}
+
+.restaurante{
+    width: 50vw;
+    background-image: url('/assets/img/sala-de-jantar.png');
+}
+
+.eventos { 
+    width: 50vw;
+    background-image: url('/assets/img/sala-de-jantar.png');
+}
