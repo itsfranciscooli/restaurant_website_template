@@ -40,16 +40,12 @@ body, html {
     position: absolute;
     top: 20px;
     left: 150px;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
-    border-radius: 5px;
 }
 
 .reservation-button a {
     color: white;
     text-decoration: none;
-    font-size: 1em;
-    font-family: Arial, sans-serif;
 }
 
 .reservation-button a:hover {
@@ -65,4 +61,126 @@ body, html {
 .logo img {
     height: 50px; 
     width: auto;
+}
+
+.header {
+    background-color: #2C3E3F;
+    color: #F3F3F3;
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.header p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #FAFAFA;
+}
+
+.left, .right {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.left p, .right p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.right p {
+    font-weight: bold;
+}
+
+.menu-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.gallery img {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #E6E6E6;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+.bottom-footer p {
+    margin: 0;
+}
+
+.bottom-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.bottom-footer a:hover {
+    text-decoration: underline;
 }
