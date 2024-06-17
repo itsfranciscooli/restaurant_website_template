@@ -19,7 +19,7 @@ header {
 .logo {
     margin-top: 15%;
     margin-left: 20%;
-    width: 150px;  /* Adjust the size of the logo as needed */
+    width: 150px;  
     height: auto;
 }
 
@@ -59,13 +59,13 @@ a:active {
   }
 
 #restaurant {
-    background: url('/assets/img/sala.jpg') no-repeat center center;
+    background: url('/assets/sala.jpg') no-repeat center center;
     background-size: cover;
     font-family: "Playwrite SK", cursive;
 }
 
 #events {
-    background: url('/assets/img/eventos.png') no-repeat center center;
+    background: url('/assets/eventos.png') no-repeat center center;
     background-size: cover;
     font-family: "Playwrite SK", cursive;
 }
