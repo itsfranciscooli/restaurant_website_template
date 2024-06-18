@@ -33,7 +33,7 @@ body, html {
     transform: translateY(-50%);
     color: white;
     font-size: 100%;
-    font-family: "Playwrite SK", cursive;
+    text-transform: uppercase;
 }
 
 .reservation-button {

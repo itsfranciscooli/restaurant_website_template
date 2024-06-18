@@ -1,6 +1,4 @@
- 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+SK:wght@100..400&display=swap');
-
 
 body {
     margin: 0;
@@ -22,17 +20,31 @@ body {
     border-radius: 0 0 25px 25px;
 }
 
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    border-radius: 0 0 25px 25px; 
+}
+
 .logo {
     position: absolute;
     top: 20px;
     left: 20px;
     width: 100px;
+    z-index: 2; 
 }
 
 .header-text {
     padding: 20px;
     text-align: right;
     margin-right: 20px;
+    z-index: 2; 
 }
 
 .header-text h1 {
@@ -115,8 +127,8 @@ body {
     text-decoration: underline;
 }
 
-.recomendation{
-    color:rgb(163, 139, 0)
+.recomendation {
+    color: rgb(163, 139, 0);
 }
 
 .reservation-button {
@@ -124,12 +136,13 @@ body {
     top: 20px;
     left: 150px;
     padding: 10px 20px;
+    z-index: 2;
 }
 
 .reservation-button a {
     color: white;
     text-decoration: none;
-padding: 10px;
+    padding: 10px;
 }
 
 .reservation-button a:hover {
