@@ -13,7 +13,7 @@ body {
 
 .header {
     position: relative;
-    background: url('/assets/events-header.jpg') no-repeat center center;
+    background: url('../assets/gal_5.jpg') no-repeat center center;
     background-size: cover;
     height: 50vh;
     display: flex;
@@ -139,7 +139,7 @@ body {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
+    background-color: #ffbb00;
 }
 
 .btn-primary:hover {
@@ -157,5 +157,21 @@ body {
     background-color: #00336a;
     opacity: 0.65;
     cursor: not-allowed;
+}
+
+.reservation-button {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    padding: 10px 20px;
+}
+
+.reservation-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.reservation-button a:hover {
+    color: #ccc;
 }
 
