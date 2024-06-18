@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    position: relative;
+    background: url('/assets/gal_4.jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+}
+
+.header-text {
+    padding: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    color: #F3F3F3;
+    font-size: 2em;
+    margin: 0;
+}
+
+.menu-content {
+    padding: 40px 20px;
+    background-color: #FAFAFA;
+    flex: 1;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.menu-item-left, .menu-item-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-item-left {
+    align-items: flex-start;
+    margin-right: -30%;
+    margin-left: 5%;
+    
+}
+
+.menu-item-right {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.menu-item-image {
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #FFF;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+.bottom-footer p {
+    margin: 0;
+}
+
+.bottom-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.bottom-footer a:hover {
+    text-decoration: underline;
+}
+
+.reservation-button {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    padding: 10px 20px;
+}
+
+.reservation-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.reservation-button a:hover {
+    color: #ccc;
+}
