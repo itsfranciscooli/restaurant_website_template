@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+SK:wght@100..400&display=swap');
 
 body, html {
@@ -37,8 +36,8 @@ header {
     overflow: hidden;
 }
 
-a{
-    color:white;
+a {
+    color: white;
     text-transform: uppercase;
 }
 
@@ -56,24 +55,34 @@ a:hover {
 
 a:active { 
     text-decoration: none; 
-  }
+}
 
 #restaurant {
     background: url('/assets/sala.jpg') no-repeat center center;
     background-size: cover;
-    font-family: "Playwrite SK", cursive;
 }
 
 #events {
     background: url('/assets/eventos.png') no-repeat center center;
     background-size: cover;
-    font-family: "Playwrite SK", cursive;
 }
 
 h2 {
     margin: 0;
     font-size: 2em;
     font-weight: normal;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 31, 31, 0.5); /* Silver color with 50% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
