@@ -184,3 +184,38 @@ body, html {
 .bottom-footer a:hover {
     text-decoration: underline;
 }
+
+.team-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.team-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.team-member p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #777;
+}
