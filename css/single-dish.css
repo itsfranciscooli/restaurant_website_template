@@ -37,45 +37,53 @@ body {
     margin: 0;
 }
 
-.menu-content {
+.dish-content {
+    display: flex;
     padding: 40px 20px;
     background-color: #FAFAFA;
     flex: 1;
 }
 
-.menu-item {
+.dish-image {
+    flex: 1;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+}
+
+.dish-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dish-details {
+    flex: 2;
+    padding: 20px;
+    background-color: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
-.menu-item-left, .menu-item-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.dish-details h2 {
+    margin-top: 0;
 }
 
-.menu-item-left {
-    align-items: flex-start;
-    margin-right: -30%;
-    margin-left: 5%;
-    
+.dish-details ul, .dish-details ol {
+    margin: 0;
+    padding-left: 20px;
 }
 
-.menu-item-right {
-    align-items: flex-end;
-    text-align: right;
+.dish-details p {
+    font-size: 1em;
+    line-height: 1.6;
 }
 
-.menu-item-image {
-    width: 50%;
-    height: auto;
-    border-radius: 25px;
+.dish-details strong {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 
 .bottom-footer {
@@ -103,6 +111,10 @@ body {
     text-decoration: underline;
 }
 
+.recomendation{
+    color:rgb(163, 139, 0)
+}
+
 .reservation-button {
     position: absolute;
     top: 20px;
@@ -117,36 +129,4 @@ body {
 
 .reservation-button a:hover {
     color: #ccc;
-}
-
-.warning-container {
-    display: flex;
-    align-items: center;
-    background-color: #fff3cd;
-    color: #856404;
-    border: 1px solid #ffeeba;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.warning-container:hover {
-    display: flex;
-    align-items: center;
-    background-color: #b3aa8d;
-    color: #000000;
-    border: 1px solid #b3aa8d;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.warning-message h2 {
-    margin: 0 0 0 0;
-    font-size: 24px;
-}
-
-
-.link-warning{
-    text-decoration: none;
 }
